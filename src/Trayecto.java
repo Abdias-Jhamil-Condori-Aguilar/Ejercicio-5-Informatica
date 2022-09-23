@@ -9,4 +9,12 @@ public class Trayecto {
         this.origen = origen;
         this.destino = destino;
     }
+
+    @Override
+    public String toString() {
+        return "Trayecto{" +
+                "origen=" + origen +
+                ", destino=" + destino +
+                '}';
+    }
 }

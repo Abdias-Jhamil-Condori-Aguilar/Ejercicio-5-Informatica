@@ -13,4 +13,13 @@ public class Reserva {
         this.fechaEmision = fechaEmision;
         this.trayecto = trayecto;
     }
+
+    @Override
+    public String toString() {
+        return "Reserva{" +
+                "localizador='" + localizador + '\'' +
+                ", fechaEmision=" + fechaEmision +
+                ", trayecto=" + trayecto +
+                '}';
+    }
 }

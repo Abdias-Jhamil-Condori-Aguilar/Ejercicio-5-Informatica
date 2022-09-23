@@ -17,4 +17,16 @@ public class Boleto {
         this.fila = fila;
         this.posicion = posicion;
     }
+
+    @Override
+    public String toString() {
+        return "Boleto{" +
+                "tren=" + tren +
+                ", trayecto=" + trayecto +
+                ", tramo=" + tramo +
+                ", numeroVagon=" + numeroVagon +
+                ", fila=" + fila +
+                ", posicion=" + posicion +
+                '}';
+    }
 }

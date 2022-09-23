@@ -15,4 +15,14 @@ public class Tramo {
         this.horaSalida = horaSalida;
         this.duracion = duracion;
     }
+
+    @Override
+    public String toString() {
+        return "Tramo{" +
+                "origen=" + origen +
+                ", destino=" + destino +
+                ", horaSalida=" + horaSalida +
+                ", duracion=" + duracion +
+                '}';
+    }
 }
